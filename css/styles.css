@@ -144,8 +144,9 @@ a:visited {
 	margin: 5em 0 0 10em;
 }
 
-img {
+#image {
 	width: 90%;
+	position: center;
 	margin-left: 5em;
 }
 
