@@ -1,0 +1,125 @@
+body {
+	
+	margin: 0 auto 0 auto;
+	color: black;
+	font-style: normal;
+	font-family: Helvetica;
+	font-size: 1em;
+	background-color: white;
+}
+
+
+
+h1 {
+	color: black;
+	font-style: normal;
+	font-family: Helvetica;
+	font-weight: 400;
+}
+
+h1 {
+	margin-left: 25px; 
+	margin-top: 25px;
+	font-size: 2em;
+	font-family:Helvetica;
+	text-align: left;
+	text-transform: uppercase;
+}	
+
+nav {
+	width: 100%;
+
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+nav li {
+	float: right;
+	width: 15%;
+}
+
+nav li a {
+	display: block;
+	color: lightgreen;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+#background {
+
+	margin: 0 auto;
+	
+	width: 95%;
+
+}
+
+img {
+	width: 100%;
+	position: center;
+	
+}
+
+/*.image { */
+   /*position: relative;*/
+	/*width: 100%;  */
+/*}*/
+
+/*h2 { */
+
+   /*position: absolute; */
+   /*top: 300px; */
+   /*margin-left: 600px; */
+   /*width: 100%; */
+/*}*/
+
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:link {
+	color:#ff9912;
+}
+
+a:visited {
+	color: darkgreen;
+}
+ a:hover, a:active, a:focus {
+	color:lightgreen;
+	text-decoration: underline;
+}
+
+.welcome-paragraph {
+	
+	margin: 0 auto;
+	font-size: 1.25em;
+	font-family:Helvetica;
+	text-align: center;
+	color: black;
+	font-style: normal;
+	font-family: Helvetica;
+	font-weight: 400;
+}
+
+.search-box {
+	width: 150px;
+	height: 30px;
+	border: solid;
+	float: right;
+	margin-top: 50px;
+	border-radius: 5px;
+	color: grey;
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 20px;
+}
