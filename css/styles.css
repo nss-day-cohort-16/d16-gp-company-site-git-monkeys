@@ -68,18 +68,18 @@ img {
 	
 }
 
-/*.image { */
-   /*position: relative;*/
-	/*width: 100%;  */
-/*}*/
+.image { 
+   position: relative;
+	width: 100%;  
+}
 
-/*h2 { */
+h2 { 
 
-   /*position: absolute; */
-   /*top: 300px; */
-   /*margin-left: 600px; */
-   /*width: 100%; */
-/*}*/
+   position: absolute; 
+   top: 400px; 
+   margin-left: 800px; 
+   width: 100%; 
+}
 
 
 a {
@@ -101,7 +101,7 @@ a:visited {
 
 .welcome-paragraph {
 	
-	margin: 0 auto;
+	
 	font-size: 1.25em;
 	font-family:Helvetica;
 	text-align: center;
@@ -109,7 +109,11 @@ a:visited {
 	font-style: normal;
 	font-family: Helvetica;
 	font-weight: 400;
+	float: ;
+	width: 30%;
 }
+
+
 
 .search-box {
 	width: 150px;
@@ -117,9 +121,14 @@ a:visited {
 	border: solid;
 	float: right;
 	margin-top: 50px;
-	border-radius: 5px;
+	border-radius: 3px;
 	color: grey;
 	padding-top: 10px;
 	padding-left: 5px;
 	font-size: 20px;
+}
+
+main {
+	width: 55%;
+	float:left;
 }
