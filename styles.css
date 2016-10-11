@@ -4,15 +4,16 @@
 }
 
 div #background {
-	width: 95%;
-	margin:0 auto;
+	width: 100%;
+	
 }
 
 header {
 	width: 100%;
-	background-color: red;
-	border-color: red;
-	border-style: solid;
+	background-color: white;
+	border-color: orange;
+	border-style: double;
+	border-style: 5px;
 	text-align: center;
 	float:center;
 }
@@ -21,13 +22,12 @@ h1 {
 	font-size : 45px;
 }
 
-<--comments
-
 
 h2 {
 	color: gray;
 	position: left;
 }
+
 
 h3 { 
   color: orange;
@@ -40,10 +40,11 @@ div .EM {
 	border-color: orange;
 	border-style: solid;
 	width: 300px;
-	height: 300px;	float:left;
+	height: 300px;	
 	text-align: left;
 	margin: 1em;
 	background-color: white;
+	display: inline-block;
 }
 
 div .JL {
@@ -52,9 +53,9 @@ div .JL {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:left;
 	text-align: left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -64,9 +65,9 @@ div .JA {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:left;
 	text-align:left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -76,9 +77,9 @@ div .CP {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:left;
 	text-align: left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -88,10 +89,10 @@ div .LF {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:right;
 	text-align: left;
 	margin: 1em;
 	text-indent: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -101,9 +102,9 @@ div .AJ {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:right;
 	text-align: left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -113,9 +114,9 @@ div .KK {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:right;
 	text-align: left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
@@ -125,9 +126,9 @@ div .SJ {
 	border-style: solid;
 	width: 300px;
 	height: 300px;
-	float:right;
-	text-align: left;
+	text-align:left;
 	margin: 1em;
+	display: inline-block;
 	background-color: white;
 }
 
