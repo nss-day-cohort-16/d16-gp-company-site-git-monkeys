@@ -193,6 +193,34 @@ a:visited {
 	background-color: lightgrey;
 }
 
+
+
+#right {
+	width: 40%;
+	float: right;
+	margin-right: 5em;
+	line-height: .5em;
+}
+
+#left {
+	width: 40%;
+	float: left;
+	margin-left: 10em;
+	line-height: .5em;
+}
+
+#contactus {
+	display: block;
+	margin: 5em 0 0 10em;
+}
+
+#image {
+	width: 90%;
+	position: center;
+	margin-left: 5em;
+}
+
+
 /*
 **********************************
 FOOTER
@@ -280,6 +308,7 @@ img.fruit {
 p {
 	text-align: center;
 }
+
 
 
 
