@@ -101,19 +101,51 @@ img {
 	
 }
 
-/*.image { */
-   /*position: relative;*/
-	/*width: 100%;  */
-/*}*/
+.photo {
+	margin-top: 50px;
+	width: 50%;
+	height: 280px;
+}
 
-/*h2 { */
+main {
+	width: 65%;
+	float: left;
+}
 
-   /*position: absolute; */
-   /*top: 300px; */
-   /*margin-left: 600px; */
-   /*width: 100%; */
-/*}*/
+aside {
+	width: 30%;
+	float: right;
+}
 
+.image { 
+   position: relative;
+	width: 100%;  
+}
+
+.small-background { 
+
+   position: absolute; 
+   top: 500px;
+   margin-left: 700px; 
+   width: 30%; 
+   border: solid;
+   border-width: 2px;
+   border-radius: 3px;
+   background-color: orange;
+   border-color: red;
+   padding-left: 23px;
+   font-style: italic;
+   font-family: Helvetica, serif;
+   color: red;
+
+
+}
+.arrow-img {
+	width: 32px;
+	height:20px;
+	float: right;
+	padding-bottom: 10px;
+}
 
 a {
 	font-weight: bold;
@@ -134,27 +166,31 @@ a:visited {
 
 .welcome-paragraph {
 	
-	margin: 0 auto;
+
 	font-size: 1.25em;
 	font-family:Helvetica;
 	text-align: center;
 	color: black;
 	font-style: normal;
 	font-family: Helvetica;
-	font-weight: 400;
+	font-weight: 380;
+	margin-top:100px;
+	float: right;
+	width: 100%;
 }
 
 .search-box {
-	width: 150px;
+	width: 180px;
 	height: 30px;
 	border: solid;
 	float: right;
-	margin-top: 50px;
+	margin-top: 100px;
 	border-radius: 5px;
 	color: grey;
 	padding-top: 10px;
 	padding-left: 5px;
 	font-size: 20px;
+	background-color: lightgrey;
 }
 
 /*
