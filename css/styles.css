@@ -1,7 +1,7 @@
 /*******************************************
 GENERAL STYLING
-********************************************/
 
+********************************************/
 
 
 body {
@@ -101,6 +101,7 @@ img {
 	
 }
 
+
 .photo {
 	margin-top: 50px;
 	width: 50%;
@@ -121,6 +122,7 @@ aside {
    position: relative;
 	width: 100%;  
 }
+
 
 .small-background { 
 
@@ -167,6 +169,7 @@ a:visited {
 .welcome-paragraph {
 	
 
+
 	font-size: 1.25em;
 	font-family:Helvetica;
 	text-align: center;
@@ -179,13 +182,15 @@ a:visited {
 	width: 100%;
 }
 
+
+
 .search-box {
 	width: 180px;
 	height: 30px;
 	border: solid;
 	float: right;
-	margin-top: 100px;
-	border-radius: 5px;
+	margin-top: 50px;
+	border-radius: 3px;
 	color: grey;
 	padding-top: 10px;
 	padding-left: 5px;
